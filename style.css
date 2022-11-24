@@ -1,0 +1,36 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgb(60, 60, 60);
+  margin: 10px;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: center;
+   
+}
+/*mobile devise*/
+
+@madia all and (max-width:768px) {
+  .container{
+    width: 300px;
+    
+  }
+}
